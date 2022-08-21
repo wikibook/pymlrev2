@@ -1,5 +1,6 @@
 digraph Tree {
-node [shape=box, style="filled", color="black"] ;
+node [shape=box, style="filled", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
 0 [label="petal length (cm) <= 2.45\ngini = 0.667\nsamples = 120\nvalue = [41, 40, 39]\nclass = setosa", fillcolor="#fffdfd"] ;
 1 [label="gini = 0.0\nsamples = 41\nvalue = [41, 0, 0]\nclass = setosa", fillcolor="#e58139"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
